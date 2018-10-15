@@ -15,6 +15,7 @@
 		BAE902E721742146000B0B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE902E621742146000B0B5D /* main.m */; };
 		BAE902F121742146000B0B5D /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE902F021742146000B0B5D /* testTests.m */; };
 		BAE902FC21742146000B0B5D /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE902FB21742146000B0B5D /* testUITests.m */; };
+		BAE9030B21742490000B0B5D /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BAE9030A21742490000B0B5D /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BAE902F721742146000B0B5D /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAE902FB21742146000B0B5D /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		BAE902FD21742146000B0B5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE9030921742490000B0B5D /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		BAE9030A21742490000B0B5D /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BAE902D821742145000B0B5D /* AppDelegate.m */,
 				BAE902DA21742145000B0B5D /* ViewController.h */,
 				BAE902DB21742145000B0B5D /* ViewController.m */,
+				BAE9030921742490000B0B5D /* TestModel.h */,
+				BAE9030A21742490000B0B5D /* TestModel.m */,
 				BAE902DD21742145000B0B5D /* Main.storyboard */,
 				BAE902E021742146000B0B5D /* Assets.xcassets */,
 				BAE902E221742146000B0B5D /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				BAE902DC21742145000B0B5D /* ViewController.m in Sources */,
 				BAE902E721742146000B0B5D /* main.m in Sources */,
 				BAE902D921742145000B0B5D /* AppDelegate.m in Sources */,
+				BAE9030B21742490000B0B5D /* TestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
